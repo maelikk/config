@@ -1,1 +1,3 @@
-# config
+# Sauvegardes diverses
+- .vimrc
+- .bashrc
