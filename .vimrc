@@ -14,7 +14,7 @@ Plugin 'drewtempelmeyer/palenight.vim'
 " Fait apparaître un selecteur de fichier raccourci ,nn
 Plugin 'scrooloose/nerdtree'
 " Permet de changer la dernière chaîne de caractères collée par une copie précédente dans le buffer - raccourci ctrl-p ou ctrl-n
-Plugin 'vim-scripts/YankRing.vim'
+" Plugin 'vim-scripts/YankRing.vim'
 Plugin 'jlanzarotta/bufexplorer'
 
 " The following are examples of different formats supported.
@@ -138,7 +138,8 @@ set hid
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
-set whichwrap+=<,>,h,l
+" Retour à la ligne automatique avec les flèches et les touches h et l
+" set whichwrap+=<,>,h,l
 
 " Ignore case when searching
 set ignorecase
@@ -253,7 +254,7 @@ set tw=500
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
+set nowrap "Wrap lines
 
 
 """"""""""""""""""""""""""""""
